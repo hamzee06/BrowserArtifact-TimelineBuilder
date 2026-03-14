@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.js
 
@@ -13,6 +13,7 @@
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -21,4 +22,34 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv_old/
+ENV/
+env/
+.venv
+
+# Browser data files
+Cookies
+Cookies_dummy
+History
+History_copy
+Login Data
+LoginData
+Extension Cookies
+Login Data For Account
+
+# Upload directory
 uploaded_files/
+
+# Logs
+*.log
+realtime_logs/
+alerts_log.json
+activity_log.json
